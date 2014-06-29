@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ancient Tree Guessing Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Ancient Trees</h1>
+                <nav>
+                    <ul>
+                        <li><a href="http://www.mnn.com/earth-matters/wilderness-resources/photos/the-worlds-10-oldest-living-trees/taking-the-long-view">World's 10 Oldest Living Trees</a></li>
+                        <li><a href="http://www.brainpickings.org/index.php/2014/04/14/the-oldest-living-things-in-the-world-rachel-sussman-book/">Some of the Longest-living Organisms</a></li>
+                        <li><a href="http://mdc.mo.gov/your-property/your-trees-and-woods/backyard-tree-care/how-old-tree">How old is that tree?</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>Welome!</h1>
+                        <p>Trees can grow to be very old. Let's play a game where we guess which ancient tree is older!</p>
+                    </header>
+
+                    <section id="reveal1"> 
+                        <h2>Let's Play!</h2>
+                        <p>Which ancient tree is older: 'Olive Tree of Vouves' or 'Methuselah'? </p>           
+                        <p></span> Enter your guess: <input id="playerGuess" type="text"></p>
+                        
+                        <button id="playerGuess">Submit My Guess</button>
+                        <p> <strong> <span id="gameResult"></span> </strong> </p>
+                    </section>
+
+
+
+                    <footer>
+                        <h3>Results</h3>
+                        <p>This is the section that I would like to give the feedback and answer to the player.</p>
+                    </footer>
+                </article>
+
+                <aside>
+                    <h3>These are photos of the trees in question!</h3>
+                    <p> Olive Tree of Vouves <img src="http://media-cdn.tripadvisor.com/media/photo-s/01/2f/2d/d1/vouves-west-crete.jpg" ></p>
+                    <p>Methuselah<img src="http://1.bp.blogspot.com/_dXYvINOa4eg/S8txH2MQOdI/AAAAAAAAASk/DROB-E3kTbs/s400/methuselah.JPG"></p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>Thanks for stopping by! Don't forget to hug a tree!</h3>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
